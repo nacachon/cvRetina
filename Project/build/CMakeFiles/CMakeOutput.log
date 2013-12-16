@@ -1,0 +1,131 @@
+The system is: Windows - 6.1 - x86
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/daiki/Desktop/cvRetina/build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec233625470
+
+Microsoft(R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ ビルド開始: プロジェクト: cmTryCompileExec233625470, 構成: Debug x64 ------
+1>2013/12/12 16:49:29 にビルドを開始しました。
+1>PrepareForBuild:
+1>  ディレクトリ "C:\Users\daiki\Desktop\cvRetina\build\CMakeFiles\CMakeTmp\Debug\" を作成しています。
+1>InitializeBuildStatus:
+1>  "AlwaysCreate" が指定されたため "cmTryCompileExec233625470.dir\Debug\cmTryCompileExec233625470.unsuccessfulbuild" を作成しています。
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec233625470.dir\Debug\\" /Fd"C:/Users/daiki/Desktop/cvRetina/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec233625470.pdb" /Gd /TC /errorReport:prompt C:\Users\daiki\Desktop\cvRetina\build\CMakeFiles\CMakeTmp\testCCompiler.c  /Zm1000 
+1>  
+1>  testCCompiler.c
+1>Link:
+1>  cmTryCompileExec233625470.vcxproj -> C:\Users\daiki\Desktop\cvRetina\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec233625470.exe
+1>LinkEmbedManifest:
+1>  cmTryCompileExec233625470.vcxproj -> C:\Users\daiki\Desktop\cvRetina\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec233625470.exe
+1>FinalizeBuildStatus:
+1>  ファイル "cmTryCompileExec233625470.dir\Debug\cmTryCompileExec233625470.unsuccessfulbuild" を削除しています。
+1>  "cmTryCompileExec233625470.dir\Debug\cmTryCompileExec233625470.lastbuildstate" のタッチ タスクを実行しています。
+1>
+1>ビルドに成功しました。
+1>
+1>経過時間 00:00:01.13
+========== ビルド: 1 正常終了、0 失敗、0 更新不要、0 スキップ ==========
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/daiki/Desktop/cvRetina/build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2632157400
+
+Microsoft(R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ ビルド開始: プロジェクト: cmTryCompileExec2632157400, 構成: Debug x64 ------
+1>2013/12/12 16:49:32 にビルドを開始しました。
+1>InitializeBuildStatus:
+1>  "AlwaysCreate" が指定されたため "cmTryCompileExec2632157400.dir\Debug\cmTryCompileExec2632157400.unsuccessfulbuild" を作成しています。
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec2632157400.dir\Debug\\" /Fd"C:/Users/daiki/Desktop/cvRetina/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2632157400.pdb" /Gd /TC /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCCompilerABI.c"  /Zm1000 
+1>  
+1>  CMakeCCompilerABI.c
+1>Link:
+1>  cmTryCompileExec2632157400.vcxproj -> C:\Users\daiki\Desktop\cvRetina\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2632157400.exe
+1>LinkEmbedManifest:
+1>  cmTryCompileExec2632157400.vcxproj -> C:\Users\daiki\Desktop\cvRetina\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2632157400.exe
+1>FinalizeBuildStatus:
+1>  ファイル "cmTryCompileExec2632157400.dir\Debug\cmTryCompileExec2632157400.unsuccessfulbuild" を削除しています。
+1>  "cmTryCompileExec2632157400.dir\Debug\cmTryCompileExec2632157400.lastbuildstate" のタッチ タスクを実行しています。
+1>
+1>ビルドに成功しました。
+1>
+1>経過時間 00:00:01.48
+========== ビルド: 1 正常終了、0 失敗、0 更新不要、0 スキップ ==========
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/Users/daiki/Desktop/cvRetina/build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec2732505254
+
+Microsoft(R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ ビルド開始: プロジェクト: cmTryCompileExec2732505254, 構成: Debug x64 ------
+1>2013/12/12 16:49:35 にビルドを開始しました。
+1>InitializeBuildStatus:
+1>  "AlwaysCreate" が指定されたため "cmTryCompileExec2732505254.dir\Debug\cmTryCompileExec2732505254.unsuccessfulbuild" を作成しています。
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2732505254.dir\Debug\\" /Fd"C:/Users/daiki/Desktop/cvRetina/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2732505254.pdb" /Gd /TP /errorReport:prompt C:\Users\daiki\Desktop\cvRetina\build\CMakeFiles\CMakeTmp\testCXXCompiler.cxx  /Zm1000 
+1>  
+1>  testCXXCompiler.cxx
+1>Link:
+1>  cmTryCompileExec2732505254.vcxproj -> C:\Users\daiki\Desktop\cvRetina\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2732505254.exe
+1>LinkEmbedManifest:
+1>  cmTryCompileExec2732505254.vcxproj -> C:\Users\daiki\Desktop\cvRetina\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2732505254.exe
+1>FinalizeBuildStatus:
+1>  ファイル "cmTryCompileExec2732505254.dir\Debug\cmTryCompileExec2732505254.unsuccessfulbuild" を削除しています。
+1>  "cmTryCompileExec2732505254.dir\Debug\cmTryCompileExec2732505254.lastbuildstate" のタッチ タスクを実行しています。
+1>
+1>ビルドに成功しました。
+1>
+1>経過時間 00:00:01.27
+========== ビルド: 1 正常終了、0 失敗、0 更新不要、0 スキップ ==========
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/daiki/Desktop/cvRetina/build/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~2\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec561494670
+
+Microsoft(R) Visual Studio Version 10.0.40219.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+1>------ ビルド開始: プロジェクト: cmTryCompileExec561494670, 構成: Debug x64 ------
+1>2013/12/12 16:49:38 にビルドを開始しました。
+1>InitializeBuildStatus:
+1>  "AlwaysCreate" が指定されたため "cmTryCompileExec561494670.dir\Debug\cmTryCompileExec561494670.unsuccessfulbuild" を作成しています。
+1>ClCompile:
+1>  Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec561494670.dir\Debug\\" /Fd"C:/Users/daiki/Desktop/cvRetina/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec561494670.pdb" /Gd /TP /errorReport:prompt "C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXCompilerABI.cpp"  /Zm1000 
+1>  
+1>  CMakeCXXCompilerABI.cpp
+1>Link:
+1>  cmTryCompileExec561494670.vcxproj -> C:\Users\daiki\Desktop\cvRetina\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec561494670.exe
+1>LinkEmbedManifest:
+1>  cmTryCompileExec561494670.vcxproj -> C:\Users\daiki\Desktop\cvRetina\build\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec561494670.exe
+1>FinalizeBuildStatus:
+1>  ファイル "cmTryCompileExec561494670.dir\Debug\cmTryCompileExec561494670.unsuccessfulbuild" を削除しています。
+1>  "cmTryCompileExec561494670.dir\Debug\cmTryCompileExec561494670.lastbuildstate" のタッチ タスクを実行しています。
+1>
+1>ビルドに成功しました。
+1>
+1>経過時間 00:00:01.48
+========== ビルド: 1 正常終了、0 失敗、0 更新不要、0 スキップ ==========
+
+

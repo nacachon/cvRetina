@@ -1,0 +1,54 @@
+# cvRetina CMake config file
+#
+# This file sets the following variables:
+# cvRetina_FOUND - Always TRUE.
+# cvRetina_INCLUDE_DIRS - Directories containing the cvRetina include files.
+# cvRetina_IDL_DIRS - Directories containing the cvRetina IDL files.
+# cvRetina_LIBRARIES - Libraries needed to use cvRetina.
+# cvRetina_DEFINITIONS - Compiler flags for cvRetina.
+# cvRetina_VERSION - The version of cvRetina found.
+# cvRetina_VERSION_MAJOR - The major version of cvRetina found.
+# cvRetina_VERSION_MINOR - The minor version of cvRetina found.
+# cvRetina_VERSION_REVISION - The revision version of cvRetina found.
+# cvRetina_VERSION_CANDIDATE - The candidate version of cvRetina found.
+
+message(STATUS "Found cvRetina-@PROJECT_VERSION@")
+set(cvRetina_FOUND TRUE)
+
+find_package(<dependency> REQUIRED)
+
+#set(cvRetina_INCLUDE_DIRS
+#    "@CMAKE_INSTALL_PREFIX@/include/@PROJECT_NAME_LOWER@-@PROJECT_VERSION_MAJOR@"
+#    ${<dependency>_INCLUDE_DIRS}
+#    )
+#
+#set(cvRetina_IDL_DIRS
+#    "@CMAKE_INSTALL_PREFIX@/include/@PROJECT_NAME_LOWER@-@PROJECT_VERSION_MAJOR@/idl")
+set(cvRetina_INCLUDE_DIRS
+    "@CMAKE_INSTALL_PREFIX@/include/@CPACK_PACKAGE_FILE_NAME@"
+    ${<dependency>_INCLUDE_DIRS}
+    )
+set(cvRetina_IDL_DIRS
+    "@CMAKE_INSTALL_PREFIX@/include/@CPACK_PACKAGE_FILE_NAME@/idl")
+
+
+if(WIN32)
+    set(cvRetina_LIBRARIES
+        "@CMAKE_INSTALL_PREFIX@/@LIB_INSTALL_DIR@/@CMAKE_SHARED_LIBRARY_PREFIX@@PROJECT_NAME_LOWER@@CMAKE_STATIC_LIBRARY_SUFFIX@"
+        ${<dependency>_LIBRARIES}
+        )
+else(WIN32)
+    set(cvRetina_LIBRARIES
+        "@CMAKE_INSTALL_PREFIX@/@LIB_INSTALL_DIR@/@CMAKE_SHARED_LIBRARY_PREFIX@@PROJECT_NAME_LOWER@@CMAKE_SHARED_LIBRARY_SUFFIX@"
+        ${<dependency>_LIBRARIES}
+        )
+endif(WIN32)
+
+set(cvRetina_DEFINITIONS ${<dependency>_DEFINITIONS})
+
+set(cvRetina_VERSION @PROJECT_VERSION@)
+set(cvRetina_VERSION_MAJOR @PROJECT_VERSION_MAJOR@)
+set(cvRetina_VERSION_MINOR @PROJECT_VERSION_MINOR@)
+set(cvRetina_VERSION_REVISION @PROJECT_VERSION_REVISION@)
+set(cvRetina_VERSION_CANDIDATE @PROJECT_VERSION_CANDIDATE@)
+
