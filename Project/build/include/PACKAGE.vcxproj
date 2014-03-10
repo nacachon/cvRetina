@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{973F31D3-CFCB-483A-B095-F193F67502C7}</ProjectGUID>
+    <ProjectGUID>{1820EB86-9454-4145-BA7C-8D42F4E63325}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>PACKAGE</ProjectName>
@@ -216,7 +216,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/Users/daiki/Desktop/cvRetina/build/ALL_BUILD.vcxproj">
-      <Project>7319FB8E-40AE-4EEB-A21A-86C0F4702894</Project>
+      <Project>E1985488-C25C-4B3A-A35C-B2B5D79D0F6A</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

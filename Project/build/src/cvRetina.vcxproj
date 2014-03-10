@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{A58FF71B-CAFA-4CC7-8F55-A42A845E02B9}</ProjectGUID>
+    <ProjectGUID>{0A8502A9-EE0A-48E8-BFD1-8A5D9C8EF27A}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>cvRetina</ProjectName>
@@ -261,7 +261,7 @@
     <CustomBuild Include="..\..\src\CMakeLists.txt">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/daiki/Desktop/cvRetina/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Users/daiki/Desktop/cvRetina -BC:/Users/daiki/Desktop/cvRetina/build --check-stamp-file C:\Users\daiki\Desktop\cvRetina\build\src\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -H../.. -B.. --check-stamp-file C:\Users\daiki\Desktop\cvRetina\build\src\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -273,7 +273,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\daiki\Desktop\cvRetina\build\src\CMakeFiles\generate.stamp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/daiki/Desktop/cvRetina/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Users/daiki/Desktop/cvRetina -BC:/Users/daiki/Desktop/cvRetina/build --check-stamp-file C:\Users\daiki\Desktop\cvRetina\build\src\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -H../.. -B.. --check-stamp-file C:\Users\daiki\Desktop\cvRetina\build\src\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -285,7 +285,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\daiki\Desktop\cvRetina\build\src\CMakeFiles\generate.stamp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/daiki/Desktop/cvRetina/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Users/daiki/Desktop/cvRetina -BC:/Users/daiki/Desktop/cvRetina/build --check-stamp-file C:\Users\daiki\Desktop\cvRetina\build\src\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -H../.. -B.. --check-stamp-file C:\Users\daiki\Desktop\cvRetina\build\src\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -297,7 +297,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\daiki\Desktop\cvRetina\build\src\CMakeFiles\generate.stamp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/daiki/Desktop/cvRetina/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Users/daiki/Desktop/cvRetina -BC:/Users/daiki/Desktop/cvRetina/build --check-stamp-file C:\Users\daiki\Desktop\cvRetina\build\src\CMakeFiles\generate.stamp
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -H../.. -B.. --check-stamp-file C:\Users\daiki\Desktop\cvRetina\build\src\CMakeFiles\generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -315,7 +315,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="C:/Users/daiki/Desktop/cvRetina/build/ZERO_CHECK.vcxproj">
-      <Project>DFC6C723-ABE4-4528-8D52-603072573700</Project>
+      <Project>82A88AE2-5D74-4714-86BA-FFCEC3928C03</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

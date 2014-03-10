@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGUID>{DFC6C723-ABE4-4528-8D52-603072573700}</ProjectGUID>
+    <ProjectGUID>{82A88AE2-5D74-4714-86BA-FFCEC3928C03}</ProjectGUID>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
     <ProjectName>ZERO_CHECK</ProjectName>
@@ -102,7 +102,7 @@
     <CustomBuild Include="CMakeFiles\generate.stamp.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Users/daiki/Desktop/cvRetina -BC:/Users/daiki/Desktop/cvRetina/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -H.. -B. --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -114,7 +114,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\daiki\Desktop\cvRetina\build\CMakeFiles\generate.stamp;C:\Users\daiki\Desktop\cvRetina\build\cmake\CMakeFiles\generate.stamp;C:\Users\daiki\Desktop\cvRetina\build\doc\CMakeFiles\generate.stamp;C:\Users\daiki\Desktop\cvRetina\build\idl\CMakeFiles\generate.stamp;C:\Users\daiki\Desktop\cvRetina\build\include\CMakeFiles\generate.stamp;C:\Users\daiki\Desktop\cvRetina\build\include\cvRetina\CMakeFiles\generate.stamp;C:\Users\daiki\Desktop\cvRetina\build\src\CMakeFiles\generate.stamp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Users/daiki/Desktop/cvRetina -BC:/Users/daiki/Desktop/cvRetina/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -H.. -B. --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -126,7 +126,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\daiki\Desktop\cvRetina\build\CMakeFiles\generate.stamp;C:\Users\daiki\Desktop\cvRetina\build\cmake\CMakeFiles\generate.stamp;C:\Users\daiki\Desktop\cvRetina\build\doc\CMakeFiles\generate.stamp;C:\Users\daiki\Desktop\cvRetina\build\idl\CMakeFiles\generate.stamp;C:\Users\daiki\Desktop\cvRetina\build\include\CMakeFiles\generate.stamp;C:\Users\daiki\Desktop\cvRetina\build\include\cvRetina\CMakeFiles\generate.stamp;C:\Users\daiki\Desktop\cvRetina\build\src\CMakeFiles\generate.stamp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Users/daiki/Desktop/cvRetina -BC:/Users/daiki/Desktop/cvRetina/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -H.. -B. --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -138,7 +138,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\daiki\Desktop\cvRetina\build\CMakeFiles\generate.stamp;C:\Users\daiki\Desktop\cvRetina\build\cmake\CMakeFiles\generate.stamp;C:\Users\daiki\Desktop\cvRetina\build\doc\CMakeFiles\generate.stamp;C:\Users\daiki\Desktop\cvRetina\build\idl\CMakeFiles\generate.stamp;C:\Users\daiki\Desktop\cvRetina\build\include\CMakeFiles\generate.stamp;C:\Users\daiki\Desktop\cvRetina\build\include\cvRetina\CMakeFiles\generate.stamp;C:\Users\daiki\Desktop\cvRetina\build\src\CMakeFiles\generate.stamp</Outputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -HC:/Users/daiki/Desktop/cvRetina -BC:/Users/daiki/Desktop/cvRetina/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -H.. -B. --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "$(SolutionPath)"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone

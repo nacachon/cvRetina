@@ -126,6 +126,7 @@ RTC::ReturnCode_t cvRetina::onActivated(RTC::UniqueId ec_id)
 	old_length = 0;
 	len_p = 0;
 	len_m = 0;
+	fflg = false;
 	//	log_flg = m_log_sampling;
 	//viewer flag
 	p_viewflg = false;

@@ -1,7 +1,16 @@
-﻿2013/12/12 18:52:35 にビルドを開始しました。
+﻿2014/03/10 11:39:34 にビルドを開始しました。
      1>ノード 2 上のプロジェクト "C:\Users\daiki\Desktop\cvRetina\build\ZERO_CHECK.vcxproj" (build ターゲット)。
      1>InitializeBuildStatus:
          "AlwaysCreate" が指定されたため "x64\Release\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild" を作成しています。
+       CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/Users/daiki/Desktop/cvRetina/build/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/daiki/Desktop/cvRetina/build/cmake/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/daiki/Desktop/cvRetina/build/doc/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/daiki/Desktop/cvRetina/build/idl/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/daiki/Desktop/cvRetina/build/include/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/daiki/Desktop/cvRetina/build/include/cvRetina/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/Users/daiki/Desktop/cvRetina/build/src/CMakeFiles/generate.stamp is up-to-date.
        FinalizeBuildStatus:
          ファイル "x64\Release\ZERO_CHECK\ZERO_CHECK.unsuccessfulbuild" を削除しています。
          "x64\Release\ZERO_CHECK\ZERO_CHECK.lastbuildstate" のタッチ タスクを実行しています。
@@ -9,4 +18,4 @@
 
 ビルドに成功しました。
 
-経過時間 00:00:00.13
+経過時間 00:00:00.11

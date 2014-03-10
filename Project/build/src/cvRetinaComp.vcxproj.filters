@@ -22,10 +22,10 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{C5BB25E7-D93B-430C-BFBE-BDF04E1390C9}</UniqueIdentifier>
+      <UniqueIdentifier>{2FE08281-9D87-44B0-9956-BA580648A74C}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{FF8FF20F-5D6A-4D82-B24B-07E6C3A36C1D}</UniqueIdentifier>
+      <UniqueIdentifier>{0C235F2E-390D-4BEA-8D27-B9E975A90247}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
